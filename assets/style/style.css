@@ -41,6 +41,7 @@
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.45);
     backface-visibility: hidden;
+    
   }
   
   .flip {
@@ -52,9 +53,13 @@
   .card_front {
     background-color: #101c2c;
     transform: rotateY(180deg);
+    
   
   }
   
+  .card_front img{
+    width: 80%;
+  }
   
   
   
